@@ -3,7 +3,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Latest Articles</a>
+      <a class="navbar-brand" href="{% url 'home' %}">Latest Articles</a>
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         {% if user.is_authenticated %}
             <li class="nav-item ml-auto">
